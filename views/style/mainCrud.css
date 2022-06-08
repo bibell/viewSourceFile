@@ -1,0 +1,210 @@
+.mainBody{
+    position:absolute;
+    margin-left:-2000px;
+     margin-top:-500px;
+}
+
+.mainBody img{
+   width:1250px;
+   height:500px;
+}
+.createE{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.582);
+    width:300px;
+    height:400px;
+    padding:10px;
+    margin-top:-480px;
+    margin-left:-500px;
+    color:rgb(97, 89, 89);
+    
+}
+.createE h3{
+    color:yellow;
+    padding-left:50px;
+    border-bottom: 2px solid white;
+}
+.createE input{
+    background-color: black;
+    color:white;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    padding:15px;
+    margin:15px;
+}
+.createE select{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    width:200px;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+
+}
+.createE option{
+    border-top:none;
+    border-left:none;
+    border-right: none;
+}
+.createE button{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    padding:10px;
+    margin:10px;
+    border:1px solid yellow;
+}
+.noMove{
+    
+    height:800px;
+}
+.myProfile{
+
+    background-color: rgb(22, 21, 21);
+    color:white;
+    width:300px;
+    height:350px;
+    margin-left:70px;
+    margin-top:50px;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.myProfile img{
+    width:50px;
+    height:50px;
+    padding:10px;
+    border-radius: 20px;
+  
+}
+.myProfile p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px;
+    padding:10px;
+    line-height: 30px;
+    cursor:pointer;
+    
+
+}
+
+.noMove{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.466);
+    margin-top:-500px;
+    width:500px;
+    height:500px;
+    margin-left:400px;
+    
+}
+.noMove button{
+    padding:10px;
+    margin-left:50px;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    border:1px solid yellow;
+    border-radius: 15px;
+    margin-top:40px;
+
+}
+.changImg{
+    position:absolute;
+    background-color: rgba(29, 26, 26, 0.767);
+    width:100px;
+    height: 400px;
+    margin-top:-1200px;
+    margin-left:775px;
+    padding:10px;
+}
+.changImg img{
+  width:50px;
+  height:50px;
+  border-radius: 20px;
+  padding:10px;
+  margin:10px;
+}
+.changImg img:hover{
+    cursor: pointer;
+}
+.changImg p{
+    color:rgb(209, 223, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:20px;
+}
+.changImg p:hover{
+    cursor: pointer;
+    color:white;
+}
+.userList{
+    background-color: rgba(0, 0, 0, 0.623);
+    position:fixed;
+    margin-left:950px;
+    margin-top:-500px; 
+    width:300px;
+    height:450px;
+    overflow: scroll;
+    overflow-x: hidden; 
+
+}
+.userList h3{
+    padding-left:100px;
+    color:yellow;
+    border-bottom: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.activeuser img{
+    position:relative;
+    border-radius:20px;
+}
+.dashBord{
+    margin-left:20px;
+    padding:10px;
+}
+.dashBord img{
+    width:40px;
+    height:40px;
+    border-radius:10px;
+}
+.dashBord p{
+    padding-left:50px;
+    margin-top:-40px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color:yellow;
+}
+.dashBord p:hover{
+    color: gray;
+}
+
+.chatingPerformance{
+    position:fixed;
+    width:250px;
+    height:450px;
+    background-color:white;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px gray;
+    margin-top:-1200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.allMessage{
+    width:200px;
+    padding:10px;
+        
+}
+
+.sendMessage input{
+    width:150px;
+    margin-top:200px;
+    padding:10px;
+}
+.sendMessage button{
+    padding:10px;
+    background-color: rgb(21, 71, 235);
+    color:white;
+    border:none;
+    cursor: pointer;
+}
